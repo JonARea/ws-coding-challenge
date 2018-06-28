@@ -22,7 +22,7 @@ export const styleProductThumbnailName = {
   height: '7%',
   padding: '2% 0',
   textAlign: 'center',
-  transition: 'opacity 0.5s'
+  transition: 'opacity 0.5s',
 }
 
 export const styleProductThumbnailPrice = {
@@ -34,12 +34,30 @@ export const styleProductThumbnailPrice = {
   height: '5%',
   padding: '2%',
   textAlign: 'center',
-  transition: 'opacity 0.5s'
+  transition: 'opacity 0.5s',
 }
 
 export const styleSingleProductModal = {
-  position: 'absolute',
+  position: 'fixed',
   top: '50%',
   left: '50%',
   height: '50vh',
+  transform: 'translate(-50%, -50%)',
+  zIndex: '2',
+}
+
+export const styleModalBackdrop = {
+  position: 'fixed',
+  height: '100%',
+  width: '100%',
+  zIndex: '1',
+  backgroundColor: '#000',
+  opacity: '0.5',
+}
+
+export const styleSingleProductDetail = {
+  display: 'flex',
+  justifyContent: 'space-around',
+  alignItems: 'center',
+  height: '100vh',
 }

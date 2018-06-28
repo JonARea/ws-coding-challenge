@@ -1,5 +1,5 @@
 import React from 'react'
-import SingleProductModal from './SingleProductModal'
+import {Link} from 'react-router-dom'
 import {
   styleProductThumbnail,
   styleProductThumbnailName,
@@ -7,17 +7,13 @@ import {
   styleProductThumbnailPrice
 } from '../styles/index'
 
+
 class ProductThumbnail extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       showDetails: false,
-      showModal: false
     }
-  }
-
-  closeModal = () => {
-    this.setState({showModal: false})
   }
 
   render() {
@@ -53,18 +49,14 @@ class ProductThumbnail extends React.Component {
         >
           {'$' + product.priceRange.selling.low + ' - $' + product.priceRange.selling.high}
         </div>
-        <img
-          className="productThumbnailImage"
-          style={styleProductThumbnailImage}
-          onClick={() => this.setState({showModal: true})}
-          src={product.hero.href}
-          alt={product.hero.alt}
-        />
-        <SingleProductModal
-          images={product.images}
-          isOpen={this.state.showModal}
-          closeModal={this.closeModal}
-        />
+        <Link to={'/products/' + product.id}>
+          <img
+            className="productThumbnailImage"
+            style={styleProductThumbnailImage}
+            src={product.hero.href}
+            alt={product.hero.alt}
+          />
+        </ Link>
     </div>
     )
   }
