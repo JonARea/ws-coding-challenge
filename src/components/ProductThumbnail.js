@@ -16,14 +16,41 @@ class ProductThumbnail extends React.Component {
     }
   }
 
+  componentDidMount() {
+    const element = document.getElementById(this.props.id)
+    this.toggleDetails(element)
+    window.addEventListener('scroll', () => {
+      if (element) {
+        this.toggleDetails(element)
+      }
+    })
+  }
+
+  componentIsInView = (element) => {
+    const top = element.getBoundingClientRect().top
+    return top > 50 && window.innerHeight - 200 > top
+  }
+
+  toggleDetails = (element) => {
+    if (this.componentIsInView(element) && !this.state.showDetails) { //component has moved in view
+      this.setState({showDetails: true})
+    } else if (!this.componentIsInView(element) && this.state.showDetails) { //component has moved out of view
+        this.setState({showDetails: false})
+    }
+  }
+
   render() {
-    const {product} = this.props
+    const {product, id} = this.props
     return (
+      <div
+        className="productThumbnailCard"
+        style={{padding: '0.5vw', backgroundColor: '#eee'}}
+      >
+
       <div
         className="productThumbnail"
         style={styleProductThumbnail}
-        onMouseEnter={() => this.setState({showDetails: true})}
-        onMouseLeave={() => this.setState({showDetails: false})}
+        id={id}
       >
         <div
           className="productThumbnailName"
@@ -57,6 +84,7 @@ class ProductThumbnail extends React.Component {
             alt={product.hero.alt}
           />
         </ Link>
+    </div>
     </div>
     )
   }

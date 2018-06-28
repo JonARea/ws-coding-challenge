@@ -13,7 +13,7 @@ export default class AllProducts extends React.Component {
   render() {
     return (
       <div id="allProducts" style={styleAllProducts}>
-        {this.state.products.map(product => <ProductThumbnail product={product} key={product.id} />)}
+        {this.state.products.map(product => <ProductThumbnail product={product} key={product.id} id={product.id} />)}
       </div>
     )
   }

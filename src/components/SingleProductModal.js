@@ -1,6 +1,7 @@
 import React from 'react'
-import {styleSingleProductModal, styleModalBackdrop} from '../styles/index'
+import {styleSingleProductModal, styleModalBackdrop, styleMaterialIcons} from '../styles/index'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+
 
 class SingleProductModal extends React.Component {
   constructor(props) {
@@ -20,14 +21,37 @@ class SingleProductModal extends React.Component {
           transitionName="modal"
           transitionAppear={true}
           transitionAppearTimeout={500}
+          transitionEnterTimeout={50}
+          transitionLeaveTimeout={50}
         >
           <div className="singleProductModal" style={styleSingleProductModal}>
             <img
               src={images[currentImage].href}
               alt={images[currentImage].alt}
             />
-            <div onClick={closeModal}>CLOSE ME</div>
-            <div onClick={() => this.setState({currentImage: (currentImage + 1) % images.length})}>NEXT IMAGE</div>
+            {currentImage < images.length - 1 &&
+              <i
+                className="material-icons md-48"
+                style={{...styleMaterialIcons, top: '35%'}}
+                onClick={() => this.setState({currentImage: (currentImage + 1) % images.length})}
+              >
+                navigate_next
+              </i>
+            }
+            {currentImage > 0 &&
+              <i
+                className="material-icons md-48"
+                style={{...styleMaterialIcons, top: '35%', left: '-10%'}}
+                onClick={() => this.setState({currentImage: Math.abs((currentImage - 1) % images.length)})}
+              >
+                navigate_before
+              </i>
+            }
+            <i
+              className="material-icons md-48"
+              style={styleMaterialIcons}
+              onClick={closeModal}>close
+            </i>
           </div>
           <div className="modalBackdrop" style={styleModalBackdrop} />
         </ReactCSSTransitionGroup>

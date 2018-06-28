@@ -1,12 +1,13 @@
 export const styleAllProducts = {
   display: 'flex',
   flexWrap: 'wrap',
+  justifyContent: 'space-around'
 }
 
 export const styleProductThumbnail = {
   display: 'flex',
   flexDirection: 'column',
-  margin: '5vh 2vw',
+  margin: '2vw',
   position: 'relative',
 }
 
@@ -60,4 +61,21 @@ export const styleSingleProductDetail = {
   justifyContent: 'space-around',
   alignItems: 'center',
   height: '100vh',
+}
+
+export const styleMaterialIcons = {
+  fontSize: '48px',
+  position: 'absolute',
+  color: '#fff',
+  cursor: 'pointer',
+}
+
+export const styleAddToCart = {
+  minHeight: '2em',
+  minWidth: '5em',
+  height: '5vh',
+  width: '10vw',
+  fontSize: '1em',
+  borderRadius: '5%',
+  backgroundColor: '#ddeef0'
 }
