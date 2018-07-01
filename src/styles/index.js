@@ -1,3 +1,11 @@
+export const styleHeader = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  width: '100vw',
+  borderBottom: 'solid black 2px',
+}
+
 export const styleAllProducts = {
   display: 'flex',
   flexWrap: 'wrap',
@@ -9,6 +17,11 @@ export const styleProductThumbnail = {
   flexDirection: 'column',
   margin: '2vw',
   position: 'relative',
+}
+
+export const styleProductThumbnailCard = {
+  margin: '1vw 0',
+  backgroundColor: '#eee'
 }
 
 export const styleProductThumbnailImage = {
@@ -38,14 +51,15 @@ export const styleProductThumbnailPrice = {
   transition: 'opacity 0.5s',
 }
 
-export const styleSingleProductModal = {
+export const styleSingleProductModal = (width) => ({
   position: 'fixed',
-  top: '50%',
+  top: '40%',
   left: '50%',
-  height: '50vh',
+  height: width,
+  width: width,
   transform: 'translate(-50%, -50%)',
   zIndex: '2',
-}
+})
 
 export const styleModalBackdrop = {
   position: 'fixed',
@@ -54,27 +68,57 @@ export const styleModalBackdrop = {
   zIndex: '1',
   backgroundColor: '#000',
   opacity: '0.5',
+  top: 0,
 }
 
 export const styleSingleProductDetail = {
   display: 'flex',
   justifyContent: 'space-around',
-  alignItems: 'center',
   height: '100vh',
 }
 
+export const styleSingleProductDetailLeft = (product) => ({
+  padding: '1vw',
+  backgroundColor: '#eee',
+  maxHeight: product.hero.height,
+  margin: '2vw 0',
+})
+
 export const styleMaterialIcons = {
-  fontSize: '48px',
-  position: 'absolute',
+  fontSize: '56px',
   color: '#fff',
   cursor: 'pointer',
 }
 
+export const styleMaterialIconsContainer = (width, xPosition, yPosition) => {
+  let top, left
+  if (xPosition === 'left') {
+    left = 0
+  } else if (xPosition === 'right') {
+    left = width - 56
+  }
+
+  if (yPosition === 'middle') {
+    top = (width / 2) - 23
+  } else if (yPosition === 'top') {
+    top = 0
+  }
+
+  return {
+    backgroundColor: '#333',
+    opacity: '0.5',
+    borderRadius: '50%',
+    position: 'absolute',
+    height: '56px',
+    top: top,
+    left: left,
+  }
+}
+
 export const styleAddToCart = {
   minHeight: '2em',
-  minWidth: '5em',
+  width: '7em',
   height: '5vh',
-  width: '10vw',
   fontSize: '1em',
   borderRadius: '5%',
   backgroundColor: '#ddeef0'

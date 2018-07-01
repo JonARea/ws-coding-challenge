@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header shows Link to All products when on a single product page 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottom": "solid black 2px",
+      "display": "flex",
+      "flexDirection": "column",
+      "width": "100vw",
+    }
+  }
+>
+  <h1
+    className="headerBrand"
+  >
+    west elm
+  </h1>
+  <h3
+    className="headerNavigate"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+    >
+      <h4>
+        All new Products
+      </h4>
+    </a>
+  </h3>
+</div>
+`;
+
+exports[`Header shows Link to All products when on a single product page 2`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottom": "solid black 2px",
+      "display": "flex",
+      "flexDirection": "column",
+      "width": "100vw",
+    }
+  }
+>
+  <h1
+    className="headerBrand"
+  >
+    west elm
+  </h1>
+  <h3
+    className="headerNavigate"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+          "textDecoration": "none",
+        }
+      }
+    >
+      <h4>
+        All new Products
+      </h4>
+    </a>
+  </h3>
+</div>
+`;
