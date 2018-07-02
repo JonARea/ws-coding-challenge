@@ -41,9 +41,9 @@ class SingleProductModal extends React.Component {
             {currentImageIndex < images.length - 1 && //only show if there is a next
               <div style={styleMaterialIconsContainer(currentImage.width, 'right', 'middle')}>
                 <i
-                  className="material-icons md-48"
+                  className="material-icons md-48 navigate_next"
                   style={styleMaterialIcons}
-                  onClick={() => this.setState({currentImageIndex: (currentImageIndex + 1) % images.length})}
+                  onClick={() => this.setState({currentImageIndex: currentImageIndex + 1})}
                 >
                   navigate_next
                 </i>
@@ -54,9 +54,9 @@ class SingleProductModal extends React.Component {
                 style={styleMaterialIconsContainer(currentImage.width,
                   'left', 'middle')}>
                 <i
-                  className="material-icons md-48"
+                  className="material-icons md-48 navigate_before"
                   style={styleMaterialIcons}
-                  onClick={() => this.setState({currentImageIndex: Math.abs((currentImageIndex - 1) % images.length)})}
+                  onClick={() => this.setState({currentImageIndex: currentImageIndex - 1})}
                 >
                   navigate_before
                 </i>
@@ -66,7 +66,7 @@ class SingleProductModal extends React.Component {
               style={styleMaterialIconsContainer(currentImage.width,
                 'right', 'top')}>
               <i
-                className="material-icons md-48"
+                className="material-icons md-48 close"
                 style={styleMaterialIcons}
                 onClick={closeModal}>close
               </i>

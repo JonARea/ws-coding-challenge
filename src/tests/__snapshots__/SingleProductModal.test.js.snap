@@ -1,0 +1,3925 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Single Product Modal component correctly shows navigation icons 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProductModal
+    closeModal={[Function]}
+    images={
+      Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ]
+    }
+    isOpen={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          className="singleProductModal"
+          style={
+            Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="singleProductModalImage"
+            src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 navigate_next"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              navigate_next
+            </i>
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 close"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              close
+            </i>
+          </div>
+        </div>,
+        <div
+          className="modalBackdrop"
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            }
+          }
+        />,
+      ],
+      "transitionAppear": true,
+      "transitionAppearTimeout": 500,
+      "transitionEnter": true,
+      "transitionEnterTimeout": 50,
+      "transitionLeave": true,
+      "transitionLeaveTimeout": 50,
+      "transitionName": "modal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+            />,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>,
+            false,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>,
+          ],
+          "className": "singleProductModal",
+          "style": Object {
+            "height": 363,
+            "left": "50%",
+            "position": "fixed",
+            "top": "40%",
+            "transform": "translate(-50%, -50%)",
+            "width": 363,
+            "zIndex": "2",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "singleProductModalImage",
+              "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "navigate_next",
+                "className": "material-icons md-48 navigate_next",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "navigate_next",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "close",
+                "className": "material-icons md-48 close",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "close",
+              "type": "i",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "modalBackdrop",
+          "style": Object {
+            "backgroundColor": "#000",
+            "height": "100%",
+            "opacity": "0.5",
+            "position": "fixed",
+            "top": 0,
+            "width": "100%",
+            "zIndex": "1",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="singleProductModal"
+            style={
+              Object {
+                "height": 363,
+                "left": "50%",
+                "position": "fixed",
+                "top": "40%",
+                "transform": "translate(-50%, -50%)",
+                "width": 363,
+                "zIndex": "2",
+              }
+            }
+          >
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>
+          </div>,
+          <div
+            className="modalBackdrop"
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": "100%",
+                "opacity": "0.5",
+                "position": "fixed",
+                "top": 0,
+                "width": "100%",
+                "zIndex": "1",
+              }
+            }
+          />,
+        ],
+        "transitionAppear": true,
+        "transitionAppearTimeout": 500,
+        "transitionEnter": true,
+        "transitionEnterTimeout": 50,
+        "transitionLeave": true,
+        "transitionLeaveTimeout": 50,
+        "transitionName": "modal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="singleProductModalImage"
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+              />,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 158.5,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>
+              </div>,
+              false,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>
+              </div>,
+            ],
+            "className": "singleProductModal",
+            "style": Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "singleProductModalImage",
+                "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "navigate_next",
+                  "className": "material-icons md-48 navigate_next",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "navigate_next",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "close",
+                  "className": "material-icons md-48 close",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "close",
+                "type": "i",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "modalBackdrop",
+            "style": Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Single Product Modal component correctly shows navigation icons 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProductModal
+    closeModal={[Function]}
+    images={
+      Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ]
+    }
+    isOpen={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          className="singleProductModal"
+          style={
+            Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="singleProductModalImage"
+            src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 navigate_next"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              navigate_next
+            </i>
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 0,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 navigate_before"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              navigate_before
+            </i>
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 close"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              close
+            </i>
+          </div>
+        </div>,
+        <div
+          className="modalBackdrop"
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            }
+          }
+        />,
+      ],
+      "transitionAppear": true,
+      "transitionAppearTimeout": 500,
+      "transitionEnter": true,
+      "transitionEnterTimeout": 50,
+      "transitionLeave": true,
+      "transitionLeaveTimeout": 50,
+      "transitionName": "modal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+            />,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>
+            </div>,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>,
+          ],
+          "className": "singleProductModal",
+          "style": Object {
+            "height": 363,
+            "left": "50%",
+            "position": "fixed",
+            "top": "40%",
+            "transform": "translate(-50%, -50%)",
+            "width": 363,
+            "zIndex": "2",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "singleProductModalImage",
+              "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "navigate_next",
+                "className": "material-icons md-48 navigate_next",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "navigate_next",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 0,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "navigate_before",
+                "className": "material-icons md-48 navigate_before",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "navigate_before",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "close",
+                "className": "material-icons md-48 close",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "close",
+              "type": "i",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "modalBackdrop",
+          "style": Object {
+            "backgroundColor": "#000",
+            "height": "100%",
+            "opacity": "0.5",
+            "position": "fixed",
+            "top": 0,
+            "width": "100%",
+            "zIndex": "1",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="singleProductModal"
+            style={
+              Object {
+                "height": 363,
+                "left": "50%",
+                "position": "fixed",
+                "top": "40%",
+                "transform": "translate(-50%, -50%)",
+                "width": 363,
+                "zIndex": "2",
+              }
+            }
+          >
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>
+          </div>,
+          <div
+            className="modalBackdrop"
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": "100%",
+                "opacity": "0.5",
+                "position": "fixed",
+                "top": 0,
+                "width": "100%",
+                "zIndex": "1",
+              }
+            }
+          />,
+        ],
+        "transitionAppear": true,
+        "transitionAppearTimeout": 500,
+        "transitionEnter": true,
+        "transitionEnterTimeout": 50,
+        "transitionLeave": true,
+        "transitionLeaveTimeout": 50,
+        "transitionName": "modal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="singleProductModalImage"
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+              />,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 158.5,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>
+              </div>,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 0,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 158.5,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 navigate_before"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_before
+                </i>
+              </div>,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>
+              </div>,
+            ],
+            "className": "singleProductModal",
+            "style": Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "singleProductModalImage",
+                "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "navigate_next",
+                  "className": "material-icons md-48 navigate_next",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "navigate_next",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 navigate_before"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_before
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "navigate_before",
+                  "className": "material-icons md-48 navigate_before",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "navigate_before",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "close",
+                  "className": "material-icons md-48 close",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "close",
+                "type": "i",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "modalBackdrop",
+            "style": Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Single Product Modal component correctly shows navigation icons 3`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProductModal
+    closeModal={[Function]}
+    images={
+      Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ]
+    }
+    isOpen={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          className="singleProductModal"
+          style={
+            Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="singleProductModalImage"
+            src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg"
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 0,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 navigate_before"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              navigate_before
+            </i>
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 close"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              close
+            </i>
+          </div>
+        </div>,
+        <div
+          className="modalBackdrop"
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            }
+          }
+        />,
+      ],
+      "transitionAppear": true,
+      "transitionAppearTimeout": 500,
+      "transitionEnter": true,
+      "transitionEnterTimeout": 50,
+      "transitionLeave": true,
+      "transitionLeaveTimeout": 50,
+      "transitionName": "modal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg"
+            />,
+            false,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>
+            </div>,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>,
+          ],
+          "className": "singleProductModal",
+          "style": Object {
+            "height": 363,
+            "left": "50%",
+            "position": "fixed",
+            "top": "40%",
+            "transform": "translate(-50%, -50%)",
+            "width": 363,
+            "zIndex": "2",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "singleProductModalImage",
+              "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 0,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "navigate_before",
+                "className": "material-icons md-48 navigate_before",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "navigate_before",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "close",
+                "className": "material-icons md-48 close",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "close",
+              "type": "i",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "modalBackdrop",
+          "style": Object {
+            "backgroundColor": "#000",
+            "height": "100%",
+            "opacity": "0.5",
+            "position": "fixed",
+            "top": 0,
+            "width": "100%",
+            "zIndex": "1",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="singleProductModal"
+            style={
+              Object {
+                "height": 363,
+                "left": "50%",
+                "position": "fixed",
+                "top": "40%",
+                "transform": "translate(-50%, -50%)",
+                "width": 363,
+                "zIndex": "2",
+              }
+            }
+          >
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg"
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>
+          </div>,
+          <div
+            className="modalBackdrop"
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": "100%",
+                "opacity": "0.5",
+                "position": "fixed",
+                "top": 0,
+                "width": "100%",
+                "zIndex": "1",
+              }
+            }
+          />,
+        ],
+        "transitionAppear": true,
+        "transitionAppearTimeout": 500,
+        "transitionEnter": true,
+        "transitionEnterTimeout": 50,
+        "transitionLeave": true,
+        "transitionLeaveTimeout": 50,
+        "transitionName": "modal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="singleProductModalImage"
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg"
+              />,
+              false,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 0,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 158.5,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 navigate_before"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_before
+                </i>
+              </div>,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>
+              </div>,
+            ],
+            "className": "singleProductModal",
+            "style": Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "singleProductModalImage",
+                "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 navigate_before"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_before
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "navigate_before",
+                  "className": "material-icons md-48 navigate_before",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "navigate_before",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "close",
+                  "className": "material-icons md-48 close",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "close",
+                "type": "i",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "modalBackdrop",
+            "style": Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Single Product Modal component correctly shows navigation icons 4`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProductModal
+    closeModal={[Function]}
+    images={
+      Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ]
+    }
+    isOpen={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          className="singleProductModal"
+          style={
+            Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="singleProductModalImage"
+            src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 navigate_next"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              navigate_next
+            </i>
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 0,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 navigate_before"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              navigate_before
+            </i>
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 close"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              close
+            </i>
+          </div>
+        </div>,
+        <div
+          className="modalBackdrop"
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            }
+          }
+        />,
+      ],
+      "transitionAppear": true,
+      "transitionAppearTimeout": 500,
+      "transitionEnter": true,
+      "transitionEnterTimeout": 50,
+      "transitionLeave": true,
+      "transitionLeaveTimeout": 50,
+      "transitionName": "modal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+            />,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>
+            </div>,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>,
+          ],
+          "className": "singleProductModal",
+          "style": Object {
+            "height": 363,
+            "left": "50%",
+            "position": "fixed",
+            "top": "40%",
+            "transform": "translate(-50%, -50%)",
+            "width": 363,
+            "zIndex": "2",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "singleProductModalImage",
+              "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "navigate_next",
+                "className": "material-icons md-48 navigate_next",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "navigate_next",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 0,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "navigate_before",
+                "className": "material-icons md-48 navigate_before",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "navigate_before",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "close",
+                "className": "material-icons md-48 close",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "close",
+              "type": "i",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "modalBackdrop",
+          "style": Object {
+            "backgroundColor": "#000",
+            "height": "100%",
+            "opacity": "0.5",
+            "position": "fixed",
+            "top": 0,
+            "width": "100%",
+            "zIndex": "1",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="singleProductModal"
+            style={
+              Object {
+                "height": 363,
+                "left": "50%",
+                "position": "fixed",
+                "top": "40%",
+                "transform": "translate(-50%, -50%)",
+                "width": 363,
+                "zIndex": "2",
+              }
+            }
+          >
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_before"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_before
+              </i>
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>
+          </div>,
+          <div
+            className="modalBackdrop"
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": "100%",
+                "opacity": "0.5",
+                "position": "fixed",
+                "top": 0,
+                "width": "100%",
+                "zIndex": "1",
+              }
+            }
+          />,
+        ],
+        "transitionAppear": true,
+        "transitionAppearTimeout": 500,
+        "transitionEnter": true,
+        "transitionEnterTimeout": 50,
+        "transitionLeave": true,
+        "transitionLeaveTimeout": 50,
+        "transitionName": "modal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="singleProductModalImage"
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg"
+              />,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 158.5,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>
+              </div>,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 0,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 158.5,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 navigate_before"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_before
+                </i>
+              </div>,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>
+              </div>,
+            ],
+            "className": "singleProductModal",
+            "style": Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "singleProductModalImage",
+                "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "navigate_next",
+                  "className": "material-icons md-48 navigate_next",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "navigate_next",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 navigate_before"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_before
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 0,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "navigate_before",
+                  "className": "material-icons md-48 navigate_before",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "navigate_before",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "close",
+                  "className": "material-icons md-48 close",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "close",
+                "type": "i",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "modalBackdrop",
+            "style": Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Single Product Modal component correctly shows navigation icons 5`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProductModal
+    closeModal={[Function]}
+    images={
+      Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ]
+    }
+    isOpen={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div
+          className="singleProductModal"
+          style={
+            Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            }
+          }
+        >
+          <img
+            alt=""
+            className="singleProductModalImage"
+            src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 navigate_next"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              navigate_next
+            </i>
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              }
+            }
+          >
+            <i
+              className="material-icons md-48 close"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                }
+              }
+            >
+              close
+            </i>
+          </div>
+        </div>,
+        <div
+          className="modalBackdrop"
+          style={
+            Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            }
+          }
+        />,
+      ],
+      "transitionAppear": true,
+      "transitionAppearTimeout": 500,
+      "transitionEnter": true,
+      "transitionEnterTimeout": 50,
+      "transitionLeave": true,
+      "transitionLeaveTimeout": 50,
+      "transitionName": "modal",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+            />,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>,
+            false,
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>,
+          ],
+          "className": "singleProductModal",
+          "style": Object {
+            "height": 363,
+            "left": "50%",
+            "position": "fixed",
+            "top": "40%",
+            "transform": "translate(-50%, -50%)",
+            "width": 363,
+            "zIndex": "2",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "singleProductModalImage",
+              "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 158.5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "navigate_next",
+                "className": "material-icons md-48 navigate_next",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "navigate_next",
+              "type": "i",
+            },
+            "type": "div",
+          },
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>,
+              "style": Object {
+                "backgroundColor": "#333",
+                "borderRadius": "50%",
+                "height": "56px",
+                "left": 307,
+                "opacity": "0.5",
+                "position": "absolute",
+                "top": 0,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "close",
+                "className": "material-icons md-48 close",
+                "onClick": [Function],
+                "style": Object {
+                  "color": "#fff",
+                  "cursor": "pointer",
+                  "fontSize": "56px",
+                },
+              },
+              "ref": null,
+              "rendered": "close",
+              "type": "i",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "modalBackdrop",
+          "style": Object {
+            "backgroundColor": "#000",
+            "height": "100%",
+            "opacity": "0.5",
+            "position": "fixed",
+            "top": 0,
+            "width": "100%",
+            "zIndex": "1",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="singleProductModal"
+            style={
+              Object {
+                "height": 363,
+                "left": "50%",
+                "position": "fixed",
+                "top": "40%",
+                "transform": "translate(-50%, -50%)",
+                "width": 363,
+                "zIndex": "2",
+              }
+            }
+          >
+            <img
+              alt=""
+              className="singleProductModalImage"
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+            />
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 navigate_next"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                navigate_next
+              </i>
+            </div>
+            <div
+              style={
+                Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <i
+                className="material-icons md-48 close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  }
+                }
+              >
+                close
+              </i>
+            </div>
+          </div>,
+          <div
+            className="modalBackdrop"
+            style={
+              Object {
+                "backgroundColor": "#000",
+                "height": "100%",
+                "opacity": "0.5",
+                "position": "fixed",
+                "top": 0,
+                "width": "100%",
+                "zIndex": "1",
+              }
+            }
+          />,
+        ],
+        "transitionAppear": true,
+        "transitionAppearTimeout": 500,
+        "transitionEnter": true,
+        "transitionEnterTimeout": 50,
+        "transitionLeave": true,
+        "transitionLeaveTimeout": 50,
+        "transitionName": "modal",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                className="singleProductModalImage"
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg"
+              />,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 158.5,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>
+              </div>,
+              false,
+              <div
+                style={
+                  Object {
+                    "backgroundColor": "#333",
+                    "borderRadius": "50%",
+                    "height": "56px",
+                    "left": 307,
+                    "opacity": "0.5",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>
+              </div>,
+            ],
+            "className": "singleProductModal",
+            "style": Object {
+              "height": 363,
+              "left": "50%",
+              "position": "fixed",
+              "top": "40%",
+              "transform": "translate(-50%, -50%)",
+              "width": 363,
+              "zIndex": "2",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "singleProductModalImage",
+                "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 navigate_next"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  navigate_next
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 158.5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "navigate_next",
+                  "className": "material-icons md-48 navigate_next",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "navigate_next",
+                "type": "i",
+              },
+              "type": "div",
+            },
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <i
+                  className="material-icons md-48 close"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "color": "#fff",
+                      "cursor": "pointer",
+                      "fontSize": "56px",
+                    }
+                  }
+                >
+                  close
+                </i>,
+                "style": Object {
+                  "backgroundColor": "#333",
+                  "borderRadius": "50%",
+                  "height": "56px",
+                  "left": 307,
+                  "opacity": "0.5",
+                  "position": "absolute",
+                  "top": 0,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "close",
+                  "className": "material-icons md-48 close",
+                  "onClick": [Function],
+                  "style": Object {
+                    "color": "#fff",
+                    "cursor": "pointer",
+                    "fontSize": "56px",
+                  },
+                },
+                "ref": null,
+                "rendered": "close",
+                "type": "i",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "modalBackdrop",
+            "style": Object {
+              "backgroundColor": "#000",
+              "height": "100%",
+              "opacity": "0.5",
+              "position": "fixed",
+              "top": 0,
+              "width": "100%",
+              "zIndex": "1",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
