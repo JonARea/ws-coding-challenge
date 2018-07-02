@@ -1,18 +1,23 @@
 import React from 'react'
 import Header from '../components/Header'
 import renderer from 'react-test-renderer'
-import {} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
 
 test('Header shows Link to All products when on a single product page', () => {
-  const component = renderer.create(
+  const noLink = renderer.create(
     <BrowserRouter>
-      <Header />
+      <Header location={{pathname: '/'}} />
     </BrowserRouter>
   )
-  let tree = component.toJSON()
+  let tree = noLink.toJSON()
   expect(tree).toMatchSnapshot()
 
-  tree = component.toJSON()
+  const link = renderer.create(
+    <BrowserRouter>
+      <Header location={{pathname: '/somethingelse'}} />
+    </BrowserRouter>
+  )
+  tree = link.toJSON()
   expect(tree).toMatchSnapshot()
 
 })

@@ -1,0 +1,2067 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Single Product Detail component shows modal on click 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProductDetail
+    product={
+      Object {
+        "flags": Array [
+          Object {
+            "bopisSuppress": false,
+            "id": "newcore",
+            "rank": 3,
+          },
+          Object {
+            "bopisSuppress": false,
+            "id": "organic",
+            "rank": 7,
+          },
+          Object {
+            "bopisSuppress": false,
+            "id": "fairTrade",
+            "rank": 9,
+          },
+        ],
+        "hero": Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+          "meta": "",
+          "rel": "hero",
+          "size": "m",
+          "width": 363,
+        },
+        "id": "organic-shape-shifting-duvet-cover-shams-b2449",
+        "images": Array [
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+        ],
+        "links": Object {
+          "www": "https://www.westelm.com/products/organic-shape-shifting-duvet-cover-shams-b2449/",
+        },
+        "messages": Array [],
+        "name": "Organic Shape Shifting Duvet Cover + Shams",
+        "priceRange": Object {
+          "regular": Object {
+            "high": 89,
+            "low": 19,
+          },
+          "selling": Object {
+            "high": 71,
+            "low": 15,
+          },
+          "type": "special",
+        },
+        "reviews": Object {
+          "averageRating": 0,
+          "id": "organic-shape-shifting-duvet-cover-shams-b2449",
+          "likelihood": 0,
+          "recommendationCount": 0,
+          "reviewCount": 0,
+          "type": "GROUP_REVIEWS",
+        },
+        "swatches": Array [],
+        "thumbnail": Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+          "meta": "",
+          "rel": "thumbnail",
+          "size": "m",
+          "width": 363,
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SingleProductModal
+          closeModal={[Function]}
+          images={
+            Array [
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+            ]
+          }
+          isOpen={false}
+        />,
+        <div
+          className="singleProductDetail"
+          style={
+            Object {
+              "display": "flex",
+              "height": "100vh",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <div
+            className="singleProductDetailLeft"
+            style={
+              Object {
+                "backgroundColor": "#eee",
+                "margin": "2vw 0",
+                "maxHeight": 363,
+                "padding": "1vw",
+              }
+            }
+          >
+            <img
+              alt=""
+              className="singleProductDetailImage"
+              onClick={[Function]}
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            />
+          </div>
+          <div
+            className="singleProductDetailRight"
+            style={
+              Object {
+                "maxWidth": "50%",
+              }
+            }
+          >
+            <h2
+              className="singleProductDetailName"
+            >
+              Organic Shape Shifting Duvet Cover + Shams
+            </h2>
+            <h3
+              className="singleProductDetailPrice"
+            >
+              $15 - $71
+            </h3>
+            <button
+              className="addTocart"
+              style={
+                Object {
+                  "backgroundColor": "#ddeef0",
+                  "borderRadius": "5%",
+                  "fontSize": "1em",
+                  "height": "5vh",
+                  "minHeight": "2em",
+                  "width": "7em",
+                }
+              }
+            >
+              Add To Cart
+            </button>
+            <h3>
+              Overview
+            </h3>
+            <p
+              className="productOverview"
+            >
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <h3>
+              Shipping
+            </h3>
+            <p
+              className="shippingDetail"
+            >
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "closeModal": [Function],
+          "images": Array [
+            Object {
+              "alt": "",
+              "height": 363,
+              "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+              "meta": "",
+              "rel": "althero",
+              "size": "m",
+              "width": 363,
+            },
+            Object {
+              "alt": "",
+              "height": 363,
+              "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+              "meta": "",
+              "rel": "althero",
+              "size": "m",
+              "width": 363,
+            },
+            Object {
+              "alt": "",
+              "height": 363,
+              "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+              "meta": "",
+              "rel": "althero",
+              "size": "m",
+              "width": 363,
+            },
+          ],
+          "isOpen": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="singleProductDetailLeft"
+              style={
+                Object {
+                  "backgroundColor": "#eee",
+                  "margin": "2vw 0",
+                  "maxHeight": 363,
+                  "padding": "1vw",
+                }
+              }
+            >
+              <img
+                alt=""
+                className="singleProductDetailImage"
+                onClick={[Function]}
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+            </div>,
+            <div
+              className="singleProductDetailRight"
+              style={
+                Object {
+                  "maxWidth": "50%",
+                }
+              }
+            >
+              <h2
+                className="singleProductDetailName"
+              >
+                Organic Shape Shifting Duvet Cover + Shams
+              </h2>
+              <h3
+                className="singleProductDetailPrice"
+              >
+                $15 - $71
+              </h3>
+              <button
+                className="addTocart"
+                style={
+                  Object {
+                    "backgroundColor": "#ddeef0",
+                    "borderRadius": "5%",
+                    "fontSize": "1em",
+                    "height": "5vh",
+                    "minHeight": "2em",
+                    "width": "7em",
+                  }
+                }
+              >
+                Add To Cart
+              </button>
+              <h3>
+                Overview
+              </h3>
+              <p
+                className="productOverview"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <h3>
+                Shipping
+              </h3>
+              <p
+                className="shippingDetail"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>,
+          ],
+          "className": "singleProductDetail",
+          "style": Object {
+            "display": "flex",
+            "height": "100vh",
+            "justifyContent": "space-around",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt=""
+                className="singleProductDetailImage"
+                onClick={[Function]}
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />,
+              "className": "singleProductDetailLeft",
+              "style": Object {
+                "backgroundColor": "#eee",
+                "margin": "2vw 0",
+                "maxHeight": 363,
+                "padding": "1vw",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "singleProductDetailImage",
+                "onClick": [Function],
+                "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+                "style": Object {
+                  "cursor": "pointer",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2
+                  className="singleProductDetailName"
+                >
+                  Organic Shape Shifting Duvet Cover + Shams
+                </h2>,
+                <h3
+                  className="singleProductDetailPrice"
+                >
+                  $15 - $71
+                </h3>,
+                <button
+                  className="addTocart"
+                  style={
+                    Object {
+                      "backgroundColor": "#ddeef0",
+                      "borderRadius": "5%",
+                      "fontSize": "1em",
+                      "height": "5vh",
+                      "minHeight": "2em",
+                      "width": "7em",
+                    }
+                  }
+                >
+                  Add To Cart
+                </button>,
+                <h3>
+                  Overview
+                </h3>,
+                <p
+                  className="productOverview"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>,
+                <h3>
+                  Shipping
+                </h3>,
+                <p
+                  className="shippingDetail"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>,
+              ],
+              "className": "singleProductDetailRight",
+              "style": Object {
+                "maxWidth": "50%",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Organic Shape Shifting Duvet Cover + Shams",
+                  "className": "singleProductDetailName",
+                },
+                "ref": null,
+                "rendered": "Organic Shape Shifting Duvet Cover + Shams",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$15 - $71",
+                  "className": "singleProductDetailPrice",
+                },
+                "ref": null,
+                "rendered": "$15 - $71",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add To Cart",
+                  "className": "addTocart",
+                  "style": Object {
+                    "backgroundColor": "#ddeef0",
+                    "borderRadius": "5%",
+                    "fontSize": "1em",
+                    "height": "5vh",
+                    "minHeight": "2em",
+                    "width": "7em",
+                  },
+                },
+                "ref": null,
+                "rendered": "Add To Cart",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Overview",
+                },
+                "ref": null,
+                "rendered": "Overview",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "className": "productOverview",
+                },
+                "ref": null,
+                "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Shipping",
+                },
+                "ref": null,
+                "rendered": "Shipping",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "className": "shippingDetail",
+                },
+                "ref": null,
+                "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SingleProductModal
+            closeModal={[Function]}
+            images={
+              Array [
+                Object {
+                  "alt": "",
+                  "height": 363,
+                  "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+                  "meta": "",
+                  "rel": "althero",
+                  "size": "m",
+                  "width": 363,
+                },
+                Object {
+                  "alt": "",
+                  "height": 363,
+                  "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+                  "meta": "",
+                  "rel": "althero",
+                  "size": "m",
+                  "width": 363,
+                },
+                Object {
+                  "alt": "",
+                  "height": 363,
+                  "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+                  "meta": "",
+                  "rel": "althero",
+                  "size": "m",
+                  "width": 363,
+                },
+              ]
+            }
+            isOpen={false}
+          />,
+          <div
+            className="singleProductDetail"
+            style={
+              Object {
+                "display": "flex",
+                "height": "100vh",
+                "justifyContent": "space-around",
+              }
+            }
+          >
+            <div
+              className="singleProductDetailLeft"
+              style={
+                Object {
+                  "backgroundColor": "#eee",
+                  "margin": "2vw 0",
+                  "maxHeight": 363,
+                  "padding": "1vw",
+                }
+              }
+            >
+              <img
+                alt=""
+                className="singleProductDetailImage"
+                onClick={[Function]}
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="singleProductDetailRight"
+              style={
+                Object {
+                  "maxWidth": "50%",
+                }
+              }
+            >
+              <h2
+                className="singleProductDetailName"
+              >
+                Organic Shape Shifting Duvet Cover + Shams
+              </h2>
+              <h3
+                className="singleProductDetailPrice"
+              >
+                $15 - $71
+              </h3>
+              <button
+                className="addTocart"
+                style={
+                  Object {
+                    "backgroundColor": "#ddeef0",
+                    "borderRadius": "5%",
+                    "fontSize": "1em",
+                    "height": "5vh",
+                    "minHeight": "2em",
+                    "width": "7em",
+                  }
+                }
+              >
+                Add To Cart
+              </button>
+              <h3>
+                Overview
+              </h3>
+              <p
+                className="productOverview"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <h3>
+                Shipping
+              </h3>
+              <p
+                className="shippingDetail"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "closeModal": [Function],
+            "images": Array [
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+            ],
+            "isOpen": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="singleProductDetailLeft"
+                style={
+                  Object {
+                    "backgroundColor": "#eee",
+                    "margin": "2vw 0",
+                    "maxHeight": 363,
+                    "padding": "1vw",
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  className="singleProductDetailImage"
+                  onClick={[Function]}
+                  src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+              </div>,
+              <div
+                className="singleProductDetailRight"
+                style={
+                  Object {
+                    "maxWidth": "50%",
+                  }
+                }
+              >
+                <h2
+                  className="singleProductDetailName"
+                >
+                  Organic Shape Shifting Duvet Cover + Shams
+                </h2>
+                <h3
+                  className="singleProductDetailPrice"
+                >
+                  $15 - $71
+                </h3>
+                <button
+                  className="addTocart"
+                  style={
+                    Object {
+                      "backgroundColor": "#ddeef0",
+                      "borderRadius": "5%",
+                      "fontSize": "1em",
+                      "height": "5vh",
+                      "minHeight": "2em",
+                      "width": "7em",
+                    }
+                  }
+                >
+                  Add To Cart
+                </button>
+                <h3>
+                  Overview
+                </h3>
+                <p
+                  className="productOverview"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                <h3>
+                  Shipping
+                </h3>
+                <p
+                  className="shippingDetail"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>,
+            ],
+            "className": "singleProductDetail",
+            "style": Object {
+              "display": "flex",
+              "height": "100vh",
+              "justifyContent": "space-around",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt=""
+                  className="singleProductDetailImage"
+                  onClick={[Function]}
+                  src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />,
+                "className": "singleProductDetailLeft",
+                "style": Object {
+                  "backgroundColor": "#eee",
+                  "margin": "2vw 0",
+                  "maxHeight": 363,
+                  "padding": "1vw",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "className": "singleProductDetailImage",
+                  "onClick": [Function],
+                  "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+                  "style": Object {
+                    "cursor": "pointer",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2
+                    className="singleProductDetailName"
+                  >
+                    Organic Shape Shifting Duvet Cover + Shams
+                  </h2>,
+                  <h3
+                    className="singleProductDetailPrice"
+                  >
+                    $15 - $71
+                  </h3>,
+                  <button
+                    className="addTocart"
+                    style={
+                      Object {
+                        "backgroundColor": "#ddeef0",
+                        "borderRadius": "5%",
+                        "fontSize": "1em",
+                        "height": "5vh",
+                        "minHeight": "2em",
+                        "width": "7em",
+                      }
+                    }
+                  >
+                    Add To Cart
+                  </button>,
+                  <h3>
+                    Overview
+                  </h3>,
+                  <p
+                    className="productOverview"
+                  >
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  </p>,
+                  <h3>
+                    Shipping
+                  </h3>,
+                  <p
+                    className="shippingDetail"
+                  >
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  </p>,
+                ],
+                "className": "singleProductDetailRight",
+                "style": Object {
+                  "maxWidth": "50%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Organic Shape Shifting Duvet Cover + Shams",
+                    "className": "singleProductDetailName",
+                  },
+                  "ref": null,
+                  "rendered": "Organic Shape Shifting Duvet Cover + Shams",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "$15 - $71",
+                    "className": "singleProductDetailPrice",
+                  },
+                  "ref": null,
+                  "rendered": "$15 - $71",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Add To Cart",
+                    "className": "addTocart",
+                    "style": Object {
+                      "backgroundColor": "#ddeef0",
+                      "borderRadius": "5%",
+                      "fontSize": "1em",
+                      "height": "5vh",
+                      "minHeight": "2em",
+                      "width": "7em",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Add To Cart",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Overview",
+                  },
+                  "ref": null,
+                  "rendered": "Overview",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                    "className": "productOverview",
+                  },
+                  "ref": null,
+                  "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Shipping",
+                  },
+                  "ref": null,
+                  "rendered": "Shipping",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                    "className": "shippingDetail",
+                  },
+                  "ref": null,
+                  "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Single Product Detail component shows modal on click 2`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SingleProductDetail
+    product={
+      Object {
+        "flags": Array [
+          Object {
+            "bopisSuppress": false,
+            "id": "newcore",
+            "rank": 3,
+          },
+          Object {
+            "bopisSuppress": false,
+            "id": "organic",
+            "rank": 7,
+          },
+          Object {
+            "bopisSuppress": false,
+            "id": "fairTrade",
+            "rank": 9,
+          },
+        ],
+        "hero": Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+          "meta": "",
+          "rel": "hero",
+          "size": "m",
+          "width": 363,
+        },
+        "id": "organic-shape-shifting-duvet-cover-shams-b2449",
+        "images": Array [
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+        ],
+        "links": Object {
+          "www": "https://www.westelm.com/products/organic-shape-shifting-duvet-cover-shams-b2449/",
+        },
+        "messages": Array [],
+        "name": "Organic Shape Shifting Duvet Cover + Shams",
+        "priceRange": Object {
+          "regular": Object {
+            "high": 89,
+            "low": 19,
+          },
+          "selling": Object {
+            "high": 71,
+            "low": 15,
+          },
+          "type": "special",
+        },
+        "reviews": Object {
+          "averageRating": 0,
+          "id": "organic-shape-shifting-duvet-cover-shams-b2449",
+          "likelihood": 0,
+          "recommendationCount": 0,
+          "reviewCount": 0,
+          "type": "GROUP_REVIEWS",
+        },
+        "swatches": Array [],
+        "thumbnail": Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+          "meta": "",
+          "rel": "thumbnail",
+          "size": "m",
+          "width": 363,
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <SingleProductModal
+          closeModal={[Function]}
+          images={
+            Array [
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+            ]
+          }
+          isOpen={true}
+        />,
+        <div
+          className="singleProductDetail"
+          style={
+            Object {
+              "display": "flex",
+              "height": "100vh",
+              "justifyContent": "space-around",
+            }
+          }
+        >
+          <div
+            className="singleProductDetailLeft"
+            style={
+              Object {
+                "backgroundColor": "#eee",
+                "margin": "2vw 0",
+                "maxHeight": 363,
+                "padding": "1vw",
+              }
+            }
+          >
+            <img
+              alt=""
+              className="singleProductDetailImage"
+              onClick={[Function]}
+              src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            />
+          </div>
+          <div
+            className="singleProductDetailRight"
+            style={
+              Object {
+                "maxWidth": "50%",
+              }
+            }
+          >
+            <h2
+              className="singleProductDetailName"
+            >
+              Organic Shape Shifting Duvet Cover + Shams
+            </h2>
+            <h3
+              className="singleProductDetailPrice"
+            >
+              $15 - $71
+            </h3>
+            <button
+              className="addTocart"
+              style={
+                Object {
+                  "backgroundColor": "#ddeef0",
+                  "borderRadius": "5%",
+                  "fontSize": "1em",
+                  "height": "5vh",
+                  "minHeight": "2em",
+                  "width": "7em",
+                }
+              }
+            >
+              Add To Cart
+            </button>
+            <h3>
+              Overview
+            </h3>
+            <p
+              className="productOverview"
+            >
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <h3>
+              Shipping
+            </h3>
+            <p
+              className="shippingDetail"
+            >
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "closeModal": [Function],
+          "images": Array [
+            Object {
+              "alt": "",
+              "height": 363,
+              "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+              "meta": "",
+              "rel": "althero",
+              "size": "m",
+              "width": 363,
+            },
+            Object {
+              "alt": "",
+              "height": 363,
+              "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+              "meta": "",
+              "rel": "althero",
+              "size": "m",
+              "width": 363,
+            },
+            Object {
+              "alt": "",
+              "height": 363,
+              "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+              "meta": "",
+              "rel": "althero",
+              "size": "m",
+              "width": 363,
+            },
+          ],
+          "isOpen": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="singleProductDetailLeft"
+              style={
+                Object {
+                  "backgroundColor": "#eee",
+                  "margin": "2vw 0",
+                  "maxHeight": 363,
+                  "padding": "1vw",
+                }
+              }
+            >
+              <img
+                alt=""
+                className="singleProductDetailImage"
+                onClick={[Function]}
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+            </div>,
+            <div
+              className="singleProductDetailRight"
+              style={
+                Object {
+                  "maxWidth": "50%",
+                }
+              }
+            >
+              <h2
+                className="singleProductDetailName"
+              >
+                Organic Shape Shifting Duvet Cover + Shams
+              </h2>
+              <h3
+                className="singleProductDetailPrice"
+              >
+                $15 - $71
+              </h3>
+              <button
+                className="addTocart"
+                style={
+                  Object {
+                    "backgroundColor": "#ddeef0",
+                    "borderRadius": "5%",
+                    "fontSize": "1em",
+                    "height": "5vh",
+                    "minHeight": "2em",
+                    "width": "7em",
+                  }
+                }
+              >
+                Add To Cart
+              </button>
+              <h3>
+                Overview
+              </h3>
+              <p
+                className="productOverview"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <h3>
+                Shipping
+              </h3>
+              <p
+                className="shippingDetail"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>,
+          ],
+          "className": "singleProductDetail",
+          "style": Object {
+            "display": "flex",
+            "height": "100vh",
+            "justifyContent": "space-around",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt=""
+                className="singleProductDetailImage"
+                onClick={[Function]}
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />,
+              "className": "singleProductDetailLeft",
+              "style": Object {
+                "backgroundColor": "#eee",
+                "margin": "2vw 0",
+                "maxHeight": 363,
+                "padding": "1vw",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "className": "singleProductDetailImage",
+                "onClick": [Function],
+                "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+                "style": Object {
+                  "cursor": "pointer",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2
+                  className="singleProductDetailName"
+                >
+                  Organic Shape Shifting Duvet Cover + Shams
+                </h2>,
+                <h3
+                  className="singleProductDetailPrice"
+                >
+                  $15 - $71
+                </h3>,
+                <button
+                  className="addTocart"
+                  style={
+                    Object {
+                      "backgroundColor": "#ddeef0",
+                      "borderRadius": "5%",
+                      "fontSize": "1em",
+                      "height": "5vh",
+                      "minHeight": "2em",
+                      "width": "7em",
+                    }
+                  }
+                >
+                  Add To Cart
+                </button>,
+                <h3>
+                  Overview
+                </h3>,
+                <p
+                  className="productOverview"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>,
+                <h3>
+                  Shipping
+                </h3>,
+                <p
+                  className="shippingDetail"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>,
+              ],
+              "className": "singleProductDetailRight",
+              "style": Object {
+                "maxWidth": "50%",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Organic Shape Shifting Duvet Cover + Shams",
+                  "className": "singleProductDetailName",
+                },
+                "ref": null,
+                "rendered": "Organic Shape Shifting Duvet Cover + Shams",
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$15 - $71",
+                  "className": "singleProductDetailPrice",
+                },
+                "ref": null,
+                "rendered": "$15 - $71",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add To Cart",
+                  "className": "addTocart",
+                  "style": Object {
+                    "backgroundColor": "#ddeef0",
+                    "borderRadius": "5%",
+                    "fontSize": "1em",
+                    "height": "5vh",
+                    "minHeight": "2em",
+                    "width": "7em",
+                  },
+                },
+                "ref": null,
+                "rendered": "Add To Cart",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Overview",
+                },
+                "ref": null,
+                "rendered": "Overview",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "className": "productOverview",
+                },
+                "ref": null,
+                "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Shipping",
+                },
+                "ref": null,
+                "rendered": "Shipping",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "className": "shippingDetail",
+                },
+                "ref": null,
+                "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <SingleProductModal
+            closeModal={[Function]}
+            images={
+              Array [
+                Object {
+                  "alt": "",
+                  "height": 363,
+                  "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+                  "meta": "",
+                  "rel": "althero",
+                  "size": "m",
+                  "width": 363,
+                },
+                Object {
+                  "alt": "",
+                  "height": 363,
+                  "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+                  "meta": "",
+                  "rel": "althero",
+                  "size": "m",
+                  "width": 363,
+                },
+                Object {
+                  "alt": "",
+                  "height": 363,
+                  "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+                  "meta": "",
+                  "rel": "althero",
+                  "size": "m",
+                  "width": 363,
+                },
+              ]
+            }
+            isOpen={true}
+          />,
+          <div
+            className="singleProductDetail"
+            style={
+              Object {
+                "display": "flex",
+                "height": "100vh",
+                "justifyContent": "space-around",
+              }
+            }
+          >
+            <div
+              className="singleProductDetailLeft"
+              style={
+                Object {
+                  "backgroundColor": "#eee",
+                  "margin": "2vw 0",
+                  "maxHeight": 363,
+                  "padding": "1vw",
+                }
+              }
+            >
+              <img
+                alt=""
+                className="singleProductDetailImage"
+                onClick={[Function]}
+                src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                style={
+                  Object {
+                    "cursor": "pointer",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="singleProductDetailRight"
+              style={
+                Object {
+                  "maxWidth": "50%",
+                }
+              }
+            >
+              <h2
+                className="singleProductDetailName"
+              >
+                Organic Shape Shifting Duvet Cover + Shams
+              </h2>
+              <h3
+                className="singleProductDetailPrice"
+              >
+                $15 - $71
+              </h3>
+              <button
+                className="addTocart"
+                style={
+                  Object {
+                    "backgroundColor": "#ddeef0",
+                    "borderRadius": "5%",
+                    "fontSize": "1em",
+                    "height": "5vh",
+                    "minHeight": "2em",
+                    "width": "7em",
+                  }
+                }
+              >
+                Add To Cart
+              </button>
+              <h3>
+                Overview
+              </h3>
+              <p
+                className="productOverview"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+              <h3>
+                Shipping
+              </h3>
+              <p
+                className="shippingDetail"
+              >
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              </p>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "closeModal": [Function],
+            "images": Array [
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0799/organic-shape-shifting-bedding-shop-by-look-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/waffle-weave-throw-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+              Object {
+                "alt": "",
+                "height": 363,
+                "href": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0152/organic-pebble-dots-duvet-cover-shams-midnight-m.jpg",
+                "meta": "",
+                "rel": "althero",
+                "size": "m",
+                "width": 363,
+              },
+            ],
+            "isOpen": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="singleProductDetailLeft"
+                style={
+                  Object {
+                    "backgroundColor": "#eee",
+                    "margin": "2vw 0",
+                    "maxHeight": 363,
+                    "padding": "1vw",
+                  }
+                }
+              >
+                <img
+                  alt=""
+                  className="singleProductDetailImage"
+                  onClick={[Function]}
+                  src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />
+              </div>,
+              <div
+                className="singleProductDetailRight"
+                style={
+                  Object {
+                    "maxWidth": "50%",
+                  }
+                }
+              >
+                <h2
+                  className="singleProductDetailName"
+                >
+                  Organic Shape Shifting Duvet Cover + Shams
+                </h2>
+                <h3
+                  className="singleProductDetailPrice"
+                >
+                  $15 - $71
+                </h3>
+                <button
+                  className="addTocart"
+                  style={
+                    Object {
+                      "backgroundColor": "#ddeef0",
+                      "borderRadius": "5%",
+                      "fontSize": "1em",
+                      "height": "5vh",
+                      "minHeight": "2em",
+                      "width": "7em",
+                    }
+                  }
+                >
+                  Add To Cart
+                </button>
+                <h3>
+                  Overview
+                </h3>
+                <p
+                  className="productOverview"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+                <h3>
+                  Shipping
+                </h3>
+                <p
+                  className="shippingDetail"
+                >
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>,
+            ],
+            "className": "singleProductDetail",
+            "style": Object {
+              "display": "flex",
+              "height": "100vh",
+              "justifyContent": "space-around",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt=""
+                  className="singleProductDetailImage"
+                  onClick={[Function]}
+                  src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                    }
+                  }
+                />,
+                "className": "singleProductDetailLeft",
+                "style": Object {
+                  "backgroundColor": "#eee",
+                  "margin": "2vw 0",
+                  "maxHeight": 363,
+                  "padding": "1vw",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "className": "singleProductDetailImage",
+                  "onClick": [Function],
+                  "src": "https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg",
+                  "style": Object {
+                    "cursor": "pointer",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h2
+                    className="singleProductDetailName"
+                  >
+                    Organic Shape Shifting Duvet Cover + Shams
+                  </h2>,
+                  <h3
+                    className="singleProductDetailPrice"
+                  >
+                    $15 - $71
+                  </h3>,
+                  <button
+                    className="addTocart"
+                    style={
+                      Object {
+                        "backgroundColor": "#ddeef0",
+                        "borderRadius": "5%",
+                        "fontSize": "1em",
+                        "height": "5vh",
+                        "minHeight": "2em",
+                        "width": "7em",
+                      }
+                    }
+                  >
+                    Add To Cart
+                  </button>,
+                  <h3>
+                    Overview
+                  </h3>,
+                  <p
+                    className="productOverview"
+                  >
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  </p>,
+                  <h3>
+                    Shipping
+                  </h3>,
+                  <p
+                    className="shippingDetail"
+                  >
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  </p>,
+                ],
+                "className": "singleProductDetailRight",
+                "style": Object {
+                  "maxWidth": "50%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Organic Shape Shifting Duvet Cover + Shams",
+                    "className": "singleProductDetailName",
+                  },
+                  "ref": null,
+                  "rendered": "Organic Shape Shifting Duvet Cover + Shams",
+                  "type": "h2",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "$15 - $71",
+                    "className": "singleProductDetailPrice",
+                  },
+                  "ref": null,
+                  "rendered": "$15 - $71",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Add To Cart",
+                    "className": "addTocart",
+                    "style": Object {
+                      "backgroundColor": "#ddeef0",
+                      "borderRadius": "5%",
+                      "fontSize": "1em",
+                      "height": "5vh",
+                      "minHeight": "2em",
+                      "width": "7em",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Add To Cart",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Overview",
+                  },
+                  "ref": null,
+                  "rendered": "Overview",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                    "className": "productOverview",
+                  },
+                  "ref": null,
+                  "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Shipping",
+                  },
+                  "ref": null,
+                  "rendered": "Shipping",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                    "className": "shippingDetail",
+                  },
+                  "ref": null,
+                  "rendered": "\\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\"",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

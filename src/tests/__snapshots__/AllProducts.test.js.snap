@@ -1,0 +1,765 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllProducts shows thumbnails of all the products 1`] = `
+<div
+  id="allProducts"
+  style={
+    Object {
+      "display": "flex",
+      "flexWrap": "wrap",
+      "justifyContent": "space-around",
+    }
+  }
+>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-shape-shifting-duvet-cover-shams-b2449"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Shape Shifting Duvet Cover + Shams
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $15 - $71
+      </div>
+      <a
+        href="/products/organic-shape-shifting-duvet-cover-shams-b2449"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0791/organic-shape-shifting-duvet-cover-shams-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-abstract-petals-duvet-cover-shams-b2450"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Abstract Petals Duvet Cover + Shams
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $15 - $71
+      </div>
+      <a
+        href="/products/organic-abstract-petals-duvet-cover-shams-b2450"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/organic-abstract-petals-duvet-cover-shams-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-bold-stripes-duvet-cover-shams-b2451"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Bold Stripes Duvet Cover + Shams
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $15 - $71
+      </div>
+      <a
+        href="/products/organic-bold-stripes-duvet-cover-shams-b2451"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0793/organic-bold-stripes-duvet-cover-shams-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-pebble-dots-duvet-cover-shams-b2452"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Pebble Dots Duvet Cover + Shams
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $15 - $71
+      </div>
+      <a
+        href="/products/organic-pebble-dots-duvet-cover-shams-b2452"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0365/organic-pebble-dots-duvet-cover-shams-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-deco-quilt-shams-blue-teal-b2457"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Deco Quilt + Shams - Blue Teal
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $23 - $129
+      </div>
+      <a
+        href="/products/organic-deco-quilt-shams-blue-teal-b2457"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0792/organic-deco-quilt-shams-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-deco-quilt-shams-rosette-b2458"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Deco Quilt + Shams - Rosette
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $23 - $103
+      </div>
+      <a
+        href="/products/organic-deco-quilt-shams-rosette-b2458"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0800/organic-deco-quilt-shams-rosette-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-deco-quilt-shams-white-b2459"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Deco Quilt + Shams - White
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $23 - $103
+      </div>
+      <a
+        href="/products/organic-deco-quilt-shams-white-b2459"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0794/organic-deco-quilt-shams-white-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-deco-quilt-shams-pewter-b2460"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Deco Quilt + Shams - Pewter
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $23 - $103
+      </div>
+      <a
+        href="/products/organic-deco-quilt-shams-pewter-b2460"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0797/organic-deco-quilt-shams-pewter-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-mini-check-sheet-set-b2465"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Mini Check Sheet Set
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $15 - $119
+      </div>
+      <a
+        href="/products/organic-mini-check-sheet-set-b2465"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0796/organic-mini-check-sheet-set-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+  <div
+    className="productThumbnailCard"
+    style={
+      Object {
+        "backgroundColor": "#eee",
+        "margin": "1vw 0",
+      }
+    }
+  >
+    <div
+      className="productThumbnail"
+      id="organic-pebble-dots-sheet-set-b2467"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "margin": "2vw",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="productThumbnailName"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "7%",
+            "opacity": "0",
+            "padding": "2% 0",
+            "position": "absolute",
+            "textAlign": "center",
+            "transition": "opacity 0.5s",
+            "width": "100%",
+            "zIndex": "1",
+          }
+        }
+      >
+        Organic Pebble Dots Sheet Set
+      </div>
+      <div
+        className="productThumbnailPrice"
+        style={
+          Object {
+            "background": "#FFF",
+            "height": "5%",
+            "opacity": "0",
+            "padding": "2%",
+            "position": "absolute",
+            "textAlign": "center",
+            "top": "80%",
+            "transition": "opacity 0.5s",
+            "width": "25%",
+            "zIndex": "1",
+          }
+        }
+      >
+        $19 - $89
+      </div>
+      <a
+        href="/products/organic-pebble-dots-sheet-set-b2467"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="productThumbnailImage"
+          src="https://www.westelm.com/weimgs/rk/images/wcm/products/201824/0795/organic-pebble-dots-sheet-set-m.jpg"
+          style={
+            Object {
+              "position": "relative",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;

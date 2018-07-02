@@ -17,24 +17,6 @@ exports[`Header shows Link to All products when on a single product page 1`] = `
   >
     west elm
   </h1>
-  <h3
-    className="headerNavigate"
-  >
-    <a
-      href="/"
-      onClick={[Function]}
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
-      }
-    >
-      <h4>
-        All new Products
-      </h4>
-    </a>
-  </h3>
 </div>
 `;
 
@@ -55,23 +37,19 @@ exports[`Header shows Link to All products when on a single product page 2`] = `
   >
     west elm
   </h1>
-  <h3
-    className="headerNavigate"
-  >
-    <a
-      href="/"
-      onClick={[Function]}
-      style={
-        Object {
-          "color": "black",
-          "textDecoration": "none",
-        }
+  <a
+    href="/"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "black",
+        "textDecoration": "none",
       }
-    >
-      <h4>
-        All new Products
-      </h4>
-    </a>
-  </h3>
+    }
+  >
+    <h4>
+      All new Products
+    </h4>
+  </a>
 </div>
 `;
